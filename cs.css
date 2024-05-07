@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.wheel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#generateButton {
+  position: relative;
+  z-index: 1; /* Assicura che il bottone sia sopra l'immagine della ruota */
+}
